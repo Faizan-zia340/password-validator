@@ -37,7 +37,7 @@ if (lower_case.test(password)) {
 if (upper_case.test(password)) {
   document.getElementById('upper').classList.add('valid');
 } else {
-  document.getElementById('lower').classList.remove('valid');
+  document.getElementById('upper').classList.remove('valid');
 }
 
 
